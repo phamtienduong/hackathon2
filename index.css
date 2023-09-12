@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 800px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+h1{
+    margin-top: 10px;
+}
+
+#bank img {
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+#card input {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#content table tr td input {
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: rgb(49, 108, 255);
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
